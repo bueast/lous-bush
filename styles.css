@@ -34,12 +34,21 @@ header {
 
 a:hover {
     color: red;
+    text-decoration-line: underline;
 }
 
 .logo img {
     max-width: 50%;
-    max-height: 90%;
+    max-height: 80%;
+    border-radius: 50% 25%;  /*Rounds corners. Top left, top right, bottom left, bottom right*/
+    border: 1px;
+    border-color: coral;
+    border-style: double;
+    border-spacing: 12px;
 }
+
+
+    
 
 .logo {
     display: flex;
@@ -107,20 +116,50 @@ a {
     align-items: center;
     text-align: center;
     background-color:white;
-    width: ;
-    padding: 108px 10%;
+    padding: 108px 20% 108px 20%;
 }
 
 .what h2 {
     font-weight: 100;
     font-size: 1.25rem;
     font-family: 'sans serif';
+    padding-bottom: 32px; 
+}
+
+.pwhat {
+    line-height: 32px; /*Spaces text between the lines*/
+    padding-bottom: 48px;
 }
 
 .steps {
     display: flex;
+    gap: 2rem;
 }
 
 .steps img {
     max-width: 95%;
+}
+
+.step1 {
+}
+
+.content {
+    line-height: 21px;
+    font-size: .9rem;
+}
+
+.store {
+    margin-top: 6rem;
+    height: 64px;
+    width: 170px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.store:hover {
+    opacity: 75%;
+    cursor: grabbing;
 }
