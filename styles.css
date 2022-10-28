@@ -34,7 +34,7 @@ header {
 
 a:hover {
     color: red;
-    text-decoration-line: underline;
+    text-decoration-line: underline; /*Line below font*/
 }
 
 .logo img {
@@ -101,8 +101,7 @@ a {
     align-items: center;
     text-align: center;
     background-color:ghostwhite;
-    width: ;
-    padding: 108px 10%;
+    padding: 19vh 20%;
 }
 
 .mission h2 {
@@ -140,9 +139,6 @@ a {
     max-width: 95%;
 }
 
-.step1 {
-}
-
 .content {
     line-height: 21px;
     font-size: .9rem;
@@ -159,7 +155,73 @@ a {
     font-weight: 100;
 }
 
-.store:hover {
+.our {
+    font-size: 1.5rem;
+}
+
+.store:hover, .bam:hover, .peebs:hover {
     opacity: 75%;
     cursor: grabbing;
+}
+
+.our-plants {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e3de;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.plants {
+    display: flex;
+    gap: 2rem;
+    flex-shrink: auto;
+    padding: 2px;
+
+}
+
+.phil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    overflow: auto;
+}
+
+.phil img {
+    width: 90%;
+    height: auto;
+}
+
+
+.bam {
+    height: 4rem;
+    width: 11rem;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contact, .email, .ft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.peebs {
+    background-color: black;
+    border: none;
+    color: white;
 }
